@@ -125,7 +125,7 @@ wget https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE263034&format=file
 ---
 
 ## Data Analysis Workflow Summary
-
+```
 Raw Data (GSE263034)
 ↓
 QC Filtering (nFeature, nCount, percent.mt)
@@ -145,7 +145,7 @@ Differential Expression (MAST)
 GO Enrichment (clusterProfiler)
 ↓
 Validation & Interpretation
-
+```
 
 ## Key Results
 
