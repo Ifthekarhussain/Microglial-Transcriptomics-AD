@@ -2,7 +2,7 @@
 
 **Single-cell RNA-seq analysis of microglial transcriptomics in Alzheimer's disease**
 
-## 📊 Presentation
+##  Presentation
 [Single-Cell RNA-Seq Analysis of Microglia in Alzheimer’s Disease (Google Slides)](https://docs.google.com/presentation/d/13ejpnhUcK6fAP2gbbIEUZGSbe4M3GVrlSyFMlsG3nQQ/edit?usp=sharing)
 
 
