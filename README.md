@@ -20,6 +20,9 @@ This repository contains a comprehensive single-cell RNA-sequencing (scRNA-seq) 
 
 ## Repository Structure
 
+## Repository Structure
+
+```
 Microglial-Transcriptomics-AD/
 │── data/                       # Raw & processed data (ignored in .gitignore)
 │   ├── raw/                    # downloaded GSE files (optional)
@@ -44,7 +47,7 @@ Microglial-Transcriptomics-AD/
 │── README.md                   # Project documentation
 │── LICENSE                     # MIT license
 │── .gitignore                  # Prevents uploading large data files
-
+```
 
 
 ---
