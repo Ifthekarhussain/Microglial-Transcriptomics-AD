@@ -21,8 +21,11 @@ This repository contains a comprehensive single-cell RNA-sequencing (scRNA-seq) 
 ## Repository Structure
 
 Microglial-Transcriptomics-AD/
-│── data/                 # Raw & processed data (ignored in .gitignore)
-│── scripts/              # All R scripts for analysis
+│── data/                       # Raw & processed data (ignored in .gitignore)
+│   ├── raw/                    # downloaded GSE files (optional)
+│   └── processed/              # Seurat objects, RDS files (optional)
+│
+│── scripts/                    # All R scripts for analysis
 │   ├── 01_qc_filtering.R
 │   ├── 02_doublet_detection.R
 │   ├── 03_sctransform_normalization.R
@@ -30,9 +33,17 @@ Microglial-Transcriptomics-AD/
 │   ├── 05_clustering_umap.R
 │   ├── 06_deg_analysis_mast.R
 │   └── 07_go_enrichment.R
-│── results/              # Plots (UMAPs, volcano plots, GO plots)
-│── README.md             # Project documentation
-│── LICENSE               # MIT license
+│
+│── results/                    # Plots (UMAPs, volcano plots, GO plots)
+│   ├── qc_plots/
+│   ├── umap_plots/
+│   ├── volcano_plots/
+│   ├── go_plots/
+│   └── tables/
+│
+│── README.md                   # Project documentation
+│── LICENSE                     # MIT license
+│── .gitignore                  # Prevents uploading large data files
 
 
 
